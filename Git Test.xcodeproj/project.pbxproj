@@ -21,6 +21,7 @@
 		3A95E9831A37FF3300C45B71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A95E9651A37FF3300C45B71 /* UIKit.framework */; };
 		3A95E98B1A37FF3300C45B71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A95E9891A37FF3300C45B71 /* InfoPlist.strings */; };
 		3A95E98D1A37FF3300C45B71 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A95E98C1A37FF3300C45B71 /* Git_TestTests.m */; };
+		3A95E9981A39528700C45B71 /* DCGitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A95E9971A39528700C45B71 /* DCGitTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3A95E9881A37FF3300C45B71 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		3A95E98A1A37FF3300C45B71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A95E98C1A37FF3300C45B71 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		3A95E9961A39528700C45B71 /* DCGitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCGitTest.h; sourceTree = "<group>"; };
+		3A95E9971A39528700C45B71 /* DCGitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCGitTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				3A95E9701A37FF3300C45B71 /* DCAppDelegate.h */,
 				3A95E9711A37FF3300C45B71 /* DCAppDelegate.m */,
 				3A95E9731A37FF3300C45B71 /* Main.storyboard */,
+				3A95E9961A39528700C45B71 /* DCGitTest.h */,
+				3A95E9971A39528700C45B71 /* DCGitTest.m */,
 				3A95E9761A37FF3300C45B71 /* DCViewController.h */,
 				3A95E9771A37FF3300C45B71 /* DCViewController.m */,
 				3A95E9791A37FF3300C45B71 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A95E96E1A37FF3300C45B71 /* main.m in Sources */,
+				3A95E9981A39528700C45B71 /* DCGitTest.m in Sources */,
 				3A95E9781A37FF3300C45B71 /* DCViewController.m in Sources */,
 				3A95E9721A37FF3300C45B71 /* DCAppDelegate.m in Sources */,
 			);
